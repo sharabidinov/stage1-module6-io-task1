@@ -21,9 +21,9 @@ public class FileReader {
             }
 
         } catch (FileNotFoundException e) {
-            System.out.println("FileNotFoundException");
+            e.printStackTrace();
         } catch (IOException e) {
-            System.out.println("IOException");
+            e.printStackTrace();
         }
 
         profile.setName(data.get(0));
