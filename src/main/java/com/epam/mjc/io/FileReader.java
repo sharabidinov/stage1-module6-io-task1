@@ -25,7 +25,7 @@ public class FileReader {
                 line = in.readLine();
             }
         } catch (IOException e) {
-            throw new RuntimeException(e);
+            System.out.println("Please Try Again");
         }
         profile.setName(data.get(0));
         profile.setAge(Integer.parseInt(data.get(1)));
