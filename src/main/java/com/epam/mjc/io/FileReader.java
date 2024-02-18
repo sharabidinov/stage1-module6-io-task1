@@ -20,8 +20,6 @@ public class FileReader {
                 line = in.readLine();
             }
 
-        } catch (FileNotFoundException e) {
-            e.printStackTrace();
         } catch (IOException e) {
             e.printStackTrace();
         }
